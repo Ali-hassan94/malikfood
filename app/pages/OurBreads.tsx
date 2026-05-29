@@ -25,7 +25,7 @@ export default function OurBreads() {
       easing: "ease-in-out",
     });
 
-    // fetchProducts();
+    fetchProducts();
   }, []);
 
   const fetchProducts = async () => {
