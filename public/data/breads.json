@@ -3,168 +3,168 @@
     "id": 1,
     "title": "Classic White Bread",
     "description": "Soft bakery fresh white loaf",
-    "price": 305,
+    "price": 320,
     "thumbnail": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80"
   },
   {
     "id": 2,
     "title": "French Baguette",
     "description": "Crispy traditional French bread",
-    "price": 400,
+    "price": 450,
     "thumbnail": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 3000,
+    "id": 3,
     "title": "Whole Grain Bread",
     "description": "Healthy fiber rich loaf",
-    "price": 7,
+    "price": 380,
     "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 1200,
+    "id": 4,
     "title": "Chocolate Cake",
     "description": "Rich chocolate layered cake",
-    "price": 25,
+    "price": 2800,
     "thumbnail": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 502,
+    "id": 6,
     "title": "Vanilla Cake",
     "description": "Soft creamy vanilla cake",
-    "price": 22,
+    "price": 2500,
     "thumbnail": "https://images.unsplash.com/photo-1562440499-64c9a111f713?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 220,
+    "id": 7,
     "title": "Strawberry Cake",
     "description": "Fresh strawberry cream cake",
-    "price": 28,
+    "price": 3200,
     "thumbnail": "https://images.unsplash.com/photo-1542826438-bd32f43d626f?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 900,
+    "id": 8,
     "title": "Butter Croissant",
     "description": "Flaky French buttery croissant",
-    "price": 12,
+    "price": 450,
     "thumbnail": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 800,
+    "id": 10,
     "title": "Chocolate Croissant",
     "description": "Filled chocolate pastry",
-    "price": 14,
+    "price": 520,
     "thumbnail": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 357,
+    "id": 11,
     "title": "Cupcake Box",
     "description": "Mini cupcakes assorted pack",
-    "price": 18,
+    "price": 1200,
     "thumbnail": "https://images.unsplash.com/photo-1519869325930-281384150729?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 899,
+    "id": 12,
     "title": "Donut Pack",
     "description": "Assorted sweet donuts",
-    "price": 15,
+    "price": 950,
     "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 399,
+    "id": 13,
     "title": "Hot Coffee",
     "description": "Fresh brewed coffee",
-    "price": 5,
+    "price": 350,
     "thumbnail": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 1999,
+    "id": 14,
     "title": "Cold Coffee",
     "description": "Chilled coffee drink",
-    "price": 7,
+    "price": 550,
     "thumbnail": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 2299,
+    "id": 15,
     "title": "Oreo Milkshake",
     "description": "Creamy chocolate shake",
-    "price": 10,
+    "price": 650,
     "thumbnail": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 699,
+    "id": 16,
     "title": "Vanilla Shake",
     "description": "Smooth vanilla milkshake",
-    "price": 8,
+    "price": 600,
     "thumbnail": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 389,
+    "id": 17,
     "title": "Chicken Sandwich",
     "description": "Grilled chicken sandwich",
-    "price": 12,
+    "price": 780,
     "thumbnail": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 699,
+    "id": 18,
     "title": "Veg Sandwich",
     "description": "Fresh vegetable sandwich",
-    "price": 9,
+    "price": 650,
     "thumbnail": "https://images.unsplash.com/photo-1550507992-eb63ffee0847?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 450,
+    "id": 19,
     "title": "Club Sandwich",
     "description": "Triple layer sandwich",
-    "price": 14,
+    "price": 950,
     "thumbnail": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 700,
+    "id": 20,
     "title": "French Fries",
     "description": "Crispy golden fries",
-    "price": 6,
+    "price": 450,
     "thumbnail": "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 120,
+    "id": 21,
     "title": "Cheeseburger",
     "description": "Beef cheese burger",
-    "price": 11,
+    "price": 990,
     "thumbnail": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 140,
+    "id": 22,
     "title": "Brownie",
     "description": "Chocolate fudge brownie",
-    "price": 6,
+    "price": 420,
     "thumbnail": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 150,
+    "id": 23,
     "title": "Ice Cream Cup",
     "description": "Vanilla ice cream dessert",
-    "price": 5,
+    "price": 380,
     "thumbnail": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 190,
+    "id": 24,
     "title": "Fruit Tart",
     "description": "Fresh fruit dessert tart",
-    "price": 18,
+    "price": 1100,
     "thumbnail": "https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 210,
+    "id": 25,
     "title": "Cheesecake",
     "description": "Creamy soft cheesecake",
-    "price": 20,
+    "price": 2400,
     "thumbnail": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80"
   },
   {
-    "id": 200,
+    "id": 26,
     "title": "Muffin Pack",
     "description": "Soft bakery muffins pack",
-    "price": 10,
+    "price": 850,
     "thumbnail": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
   }
 ]
