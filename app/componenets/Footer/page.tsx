@@ -3,9 +3,15 @@
 import React from "react";
 import { FaCopyright } from "react-icons/fa";
 import { FaArrowUp } from "react-icons/fa6";
-import { Link } from "react-scroll";
 
 export default function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <section
       className="
@@ -30,7 +36,8 @@ export default function Footer() {
       </div>
 
       {/* Scroll Top Button */}
-      <div
+      <button
+        onClick={scrollToTop}
         className="
         bg-orange-600
         text-white
@@ -47,10 +54,8 @@ export default function Footer() {
         z-50
         "
       >
-        <Link to="hero" spy={true} smooth={true} offset={-100} duration={500}>
-          <FaArrowUp className="w-5 h-5" />
-        </Link>
-      </div>
+        <FaArrowUp className="w-5 h-5" />
+      </button>
     </section>
   );
 }
