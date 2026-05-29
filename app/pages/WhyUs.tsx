@@ -115,7 +115,7 @@ export default function WhyUs() {
           "
         >
           <Image
-            src="/bn3h.png"
+            src="/bn3.png"
             alt="hero banner"
             fill
             className="
