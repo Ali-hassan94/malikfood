@@ -6,8 +6,17 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 
+interface Product {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+  category: string;
+  thumbnail: string;
+}
+
 export default function OurMenue() {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -17,14 +26,13 @@ export default function OurMenue() {
       easing: "ease-in-out",
     });
 
-    fetchProducts();
+    // fetchProducts();
   }, []);
 
   const fetchProducts = async () => {
     try {
       setLoading(true);
 
-      // LOCAL JSON FETCH
       const response = await axios.get("/data/products.json");
 
       setProducts(response.data);
@@ -37,23 +45,23 @@ export default function OurMenue() {
 
   return (
     <section
-      className="w-full py-20 px-10 bg-cover bg-center"
+      className="w-full py-20 px-4 md:px-8 lg:px-10 bg-cover bg-center"
       style={{
         backgroundImage: "url('/mn3.png')",
       }}
     >
       <h1
-        className="text-4xl font-semibold text-center mb-10"
+        className="text-3xl md:text-4xl font-semibold text-center mb-10 text-white"
         data-aos="zoom-in"
       >
         Our Fresh Menu
       </h1>
 
       {loading ? (
-        <div className="text-center text-xl">Loading...</div>
+        <div className="text-center text-xl text-white">Loading...</div>
       ) : (
         <div
-          className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
           data-aos-delay="200"
         >
           {products.map(item => (
@@ -73,7 +81,7 @@ export default function OurMenue() {
 
               <p className="text-gray-600 mt-2">{item.description}</p>
 
-              <p className="font-bold mt-3">${item.price}</p>
+              <p className="font-bold mt-3">PKR {item.price}</p>
 
               <span className="text-sm text-gray-500 mt-1">
                 {item.category}
