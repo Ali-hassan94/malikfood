@@ -6,8 +6,16 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
 
+interface BreadType {
+  id: number;
+  title: string;
+  description: string;
+  price: number;
+  thumbnail: string;
+}
+
 export default function OurBreads() {
-  const [breads, setBreads] = useState([]);
+  const [breads, setBreads] = useState<BreadType[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -24,7 +32,6 @@ export default function OurBreads() {
     try {
       setLoading(true);
 
-      // LOCAL JSON FETCH
       const response = await axios.get("/data/breads.json");
 
       setBreads(response.data);
@@ -73,7 +80,7 @@ export default function OurBreads() {
 
               <p className="text-gray-600 mt-2">{item.description}</p>
 
-              <p className="font-bold mt-3">${item.price}</p>
+              <p className="font-bold mt-3">PKR {item.price}</p>
 
               <button
                 className="
