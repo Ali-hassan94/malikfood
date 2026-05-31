@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Classic White Bread",
     "description": "Soft bakery fresh white loaf",
-    "price": 5,
+    "price": 320,
     "category": "bread",
     "thumbnail": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80"
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "French Baguette",
     "description": "Crispy traditional French baguette",
-    "price": 8,
+    "price": 450,
     "category": "bread",
     "thumbnail": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec"
   },
@@ -19,7 +19,7 @@
     "id": 3,
     "title": "Whole Wheat Bread",
     "description": "Healthy fiber rich bread loaf",
-    "price": 7,
+    "price": 380,
     "category": "bread",
     "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff"
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "Chocolate Cake",
     "description": "Rich layered chocolate cake",
-    "price": 25,
+    "price": 2800,
     "category": "cake",
     "thumbnail": "https://images.unsplash.com/photo-1578985545062-69928b1d9587"
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "Vanilla Cake",
     "description": "Soft creamy vanilla cake",
-    "price": 22,
+    "price": 2500,
     "category": "cake",
     "thumbnail": "https://images.unsplash.com/photo-1562440499-64c9a111f713"
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Strawberry Cake",
     "description": "Fresh strawberry cream cake",
-    "price": 28,
+    "price": 3200,
     "category": "cake",
     "thumbnail": "https://images.unsplash.com/photo-1542826438-bd32f43d626f"
   },
@@ -51,7 +51,7 @@
     "id": 7,
     "title": "Cheese Croissant",
     "description": "Buttery flaky croissant",
-    "price": 12,
+    "price": 280,
     "category": "pastry",
     "thumbnail": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
   },
@@ -59,7 +59,7 @@
     "id": 8,
     "title": "Chocolate Croissant",
     "description": "Filled chocolate pastry",
-    "price": 14,
+    "price": 350,
     "category": "pastry",
     "thumbnail": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc"
   },
@@ -67,7 +67,7 @@
     "id": 9,
     "title": "Cupcake Pack",
     "description": "Mini cupcakes set",
-    "price": 18,
+    "price": 1200,
     "category": "cake",
     "thumbnail": "https://images.unsplash.com/photo-1519869325930-281384150729"
   },
@@ -75,7 +75,7 @@
     "id": 10,
     "title": "Donut Box",
     "description": "Assorted donuts pack",
-    "price": 15,
+    "price": 950,
     "category": "snack",
     "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff"
   },
@@ -83,7 +83,7 @@
     "id": 11,
     "title": "Oreo Milkshake",
     "description": "Cold creamy shake",
-    "price": 10,
+    "price": 650,
     "category": "drink",
     "thumbnail": "https://images.unsplash.com/photo-1572490122747-3968b75cc699"
   },
@@ -91,7 +91,7 @@
     "id": 12,
     "title": "Chocolate Milkshake",
     "description": "Rich chocolate drink",
-    "price": 9,
+    "price": 600,
     "category": "drink",
     "thumbnail": "https://images.unsplash.com/photo-1512568400610-62da28bc8a13"
   },
@@ -99,7 +99,7 @@
     "id": 13,
     "title": "Vanilla Shake",
     "description": "Smooth vanilla milkshake",
-    "price": 8,
+    "price": 550,
     "category": "drink",
     "thumbnail": "https://images.unsplash.com/photo-1572490122747-3968b75cc699"
   },
@@ -107,7 +107,7 @@
     "id": 14,
     "title": "Cold Coffee",
     "description": "Chilled coffee drink",
-    "price": 7,
+    "price": 450,
     "category": "drink",
     "thumbnail": "https://images.unsplash.com/photo-1461023058943-07fcbe16d735"
   },
@@ -115,7 +115,7 @@
     "id": 15,
     "title": "Hot Coffee",
     "description": "Fresh brewed coffee",
-    "price": 5,
+    "price": 350,
     "category": "drink",
     "thumbnail": "https://images.unsplash.com/photo-1509042239860-f550ce710b93"
   },
@@ -123,7 +123,7 @@
     "id": 16,
     "title": "Classic White Bread",
     "description": "Soft bakery fresh white loaf",
-    "price": 5,
+    "price": 320,
     "category": "bread",
     "thumbnail": "https://images.unsplash.com/photo-1549931319-a545dcf3bc73?auto=format&fit=crop&w=800&q=80"
   },
@@ -131,7 +131,7 @@
     "id": 17,
     "title": "Butter Croissant",
     "description": "Flaky buttery French croissant",
-    "price": 7,
+    "price": 250,
     "category": "pastry",
     "thumbnail": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=800&q=80"
   },
@@ -139,7 +139,7 @@
     "id": 18,
     "title": "Chocolate Cake",
     "description": "Rich chocolate layered cake",
-    "price": 25,
+    "price": 2800,
     "category": "cake",
     "thumbnail": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
   },
@@ -147,7 +147,7 @@
     "id": 19,
     "title": "Donuts Box",
     "description": "Assorted sweet donuts pack",
-    "price": 12,
+    "price": 850,
     "category": "snack",
     "thumbnail": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80"
   },
@@ -155,7 +155,7 @@
     "id": 20,
     "title": "Hot Coffee",
     "description": "Fresh brewed hot coffee",
-    "price": 4,
+    "price": 350,
     "category": "drink",
     "thumbnail": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80"
   },
@@ -163,7 +163,7 @@
     "id": 21,
     "title": "Chicken Sandwich",
     "description": "Grilled chicken sandwich with fresh veggies",
-    "price": 9,
+    "price": 750,
     "category": "snack",
     "thumbnail": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&fit=crop&w=800&q=80"
   }
