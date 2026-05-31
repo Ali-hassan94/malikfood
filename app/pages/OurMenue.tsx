@@ -26,7 +26,7 @@ export default function OurMenue() {
       easing: "ease-in-out",
     });
 
-    // fetchProducts();
+    fetchProducts();
   }, []);
 
   const fetchProducts = async () => {
