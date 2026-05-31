@@ -188,9 +188,11 @@ export default function Header() {
           </a>
         ))}
 
-        <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition">
-          Order Now
-        </button>
+        <Link href="/order">
+          <button className="bg-orange-500 text-white px-6 py-2 rounded-full font-semibold hover:bg-white hover:text-black transition">
+            Order Now
+          </button>
+        </Link>
       </div>
     </nav>
   );
