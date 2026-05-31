@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ShawarmaPage() {
   const shawarma = [
@@ -172,9 +173,11 @@ export default function ShawarmaPage() {
               PKR {item.price}
             </p>
 
+          <Link href="/order">
             <button className="mt-5 w-full bg-black text-white py-3 rounded-full hover:bg-orange-500 transition">
               Order Now
             </button>
+          </Link>
           </div>
         ))}
       </div>

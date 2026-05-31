@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function PizzaRollsPage() {
   const pizzas = [
@@ -253,6 +254,8 @@ export default function PizzaRollsPage() {
               </div>
 
               {/* BUTTON */}
+             <Link href="/order">
+             
               <button
                 className="
                 mt-5
@@ -268,6 +271,7 @@ export default function PizzaRollsPage() {
               >
                 Order Now
               </button>
+             </Link>
             </div>
           </div>
         ))}

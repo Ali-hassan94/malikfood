@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-
+import Link from "next/link";
 export default function ChipsPage() {
   const chips = [
     {
@@ -139,9 +139,11 @@ export default function ChipsPage() {
 
               <p className="font-bold mt-2">PKR {item.price}</p>
 
-              <button className="mt-4 w-full bg-black text-white py-3 rounded-full hover:bg-orange-500 transition">
-                Order Now
-              </button>
+              <Link href="/order">
+                <button className="mt-4 w-full bg-black text-white py-3 rounded-full hover:bg-orange-500 transition">
+                  Order Now
+                </button>
+              </Link>
             </div>
           </div>
         ))}

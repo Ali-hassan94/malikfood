@@ -5,6 +5,7 @@ import axios from "axios";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
+import Link from "next/link";
 
 interface Product {
   id: number;
@@ -87,8 +88,9 @@ export default function OurMenue() {
                 {item.category}
               </span>
 
-              <button
-                className="
+              <Link href="/order">
+                <button
+                  className="
                 mt-4
                 px-6
                 py-3
@@ -99,9 +101,10 @@ export default function OurMenue() {
                 hover:text-white
                 duration-300
                 "
-              >
-                Order Now
-              </button>
+                >
+                  Order Now
+                </button>
+              </Link>
             </div>
           ))}
         </div>

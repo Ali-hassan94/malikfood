@@ -5,6 +5,7 @@ import axios from "axios";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Image from "next/image";
+import Link from "next/link";
 
 interface BreadType {
   id: number;
@@ -82,8 +83,9 @@ export default function OurBreads() {
 
               <p className="font-bold mt-3">PKR {item.price}</p>
 
-              <button
-                className="
+              <Link href="/order">
+                <button
+                  className="
                 mt-4
                 px-6
                 py-3
@@ -94,9 +96,10 @@ export default function OurBreads() {
                 hover:text-white
                 duration-300
                 "
-              >
-                Order Now
-              </button>
+                >
+                  Order Now
+                </button>
+              </Link>
             </div>
           ))}
         </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export default function BurgersPage() {
   const burgers = [
@@ -141,8 +142,9 @@ export default function BurgersPage() {
                 ${item.price}
               </p>
 
-              <button
-                className="
+              <Link href="/order">
+                <button
+                  className="
                 mt-5
                 w-full
                 bg-black
@@ -153,9 +155,10 @@ export default function BurgersPage() {
                 hover:bg-orange-500
                 duration-300
                 "
-              >
-                Order Now
-              </button>
+                >
+                  Order Now
+                </button>
+              </Link>
             </div>
           </div>
         ))}
